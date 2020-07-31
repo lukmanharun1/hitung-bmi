@@ -1,0 +1,42 @@
+img {
+    width: 40px;
+    height: 40px;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgba(14, 241, 14, .4), rgba(25, 147, 250, 0.2));
+}
+
+
+
+.container img {
+    width: 200px;
+    height: 200px;
+    margin-left: 420px;
+    margin-top: 20px;
+    border-radius: 4%;
+}
+
+
+
+.container p,
+ul {
+    margin: 0 auto;
+    width: 690px;
+    background-color: #ffe;
+    border-radius: 3%;
+    padding: 12px;
+}
+
+li {
+    margin-left: 25px;
+}
+
+span {
+
+    margin-left: 300px;
+}
+
+.pengingat {
+    margin-left: 160px;
+}

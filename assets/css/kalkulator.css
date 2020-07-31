@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(to bottom right, rgba(14, 200, 14, .4), rgba(25, 147, 190, 0.2));
+}
+
+.kotak {
+    border: 1px solid rgba(10, 255, 150, .6);
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    padding-left: 100px;
+
+}
+
+.table td {
+    border: 1px solid #ffdf7e;
+
+    background-color: #ffe;
+}

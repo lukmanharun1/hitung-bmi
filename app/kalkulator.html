@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/kalkulator.css">
+  <link rel="shortcut icon" href="../assets/image/bmi.png" type="image/x-icon">
+  <title>Hitung bmi</title>
+</head>
+
+<body>
+  <h1 class="text-center mb-3">BMI Calculator</h1>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-auto">
+        <a class="nav-item nav-link mr-4" href="index.html">Apa itu BMI ?</a>
+        <a class="nav-item nav-link mr-4 active" href="#">Kalkulator BMI</a>
+        <a class="nav-item nav-link mr-4" href="tentang-saya.html">Tentang Saya</a>
+      </div>
+    </div>
+  </nav>
+  <!-- kontent -->
+  <h2 class="text-center mb-4">Yuk hitung BMI mu!</h2>
+  <div class="kotak">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="form-group">
+          <label for="tinggi-badan">Tinggi badan</label>
+          <input type="number" autofocus class="form-control" id="tinggi-badan" placeholder="Dalam cm" required>
+        </div>
+
+        <div class="form-group">
+          <label for="berat-badan">Berat badan</label>
+          <input type="number" class="form-control" id="berat-badan" placeholder="Dalam kg" required>
+        </div>
+
+        <button type="button" class="btn btn-warning mb-3" onclick="hitungBMI()">Hitung</button>
+        <p id="hasil">BMI Mu : </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- table -->
+  <div class="row mt-5">
+    <div class="col-md-4 mx-auto">
+      <table class="table">
+        <thead class="table-warning">
+          <tr>
+            <th scope="col">BMI</th>
+            <th scope="col">Keterangan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kurang dari 18.5</td>
+            <td>Kurus</td>
+          </tr>
+          <tr>
+            <td>18.5 - 24.9</td>
+            <td>Normal</td>
+          </tr>
+          <tr>
+            <td>25 - 29.9</td>
+            <td>Gemuk</td>
+          </tr>
+          <tr>
+            <td>Lebih dari 30.0</td>
+            <td>Obesitas</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <p class="text-center">Angka - angka diatas kurang tepat jika diterapkan kepada penderita <br> <b> gangguan makan,
+      seperti
+      Anoreksia
+      Nervosa</b></p>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../assets/js/jquery-3.5.1.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.bundle.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/kalkulator-bmi.js"></script>
+</body>
+
+</html>
